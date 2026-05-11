@@ -56,8 +56,8 @@ export function Hero() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1704455306251-b4634215d98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBkZW50YWwlMjBjbGluaWMlMjBpbnRlcmlvciUyMHdoaXRlJTIwYmx1ZXxlbnwxfHx8fDE3Nzg1MjQ5NDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Consultório moderno"
+                src="/src/imports/17276ae3-8cbb-4be4-9f7c-a9248c65cafa.jpg"
+                alt="Consultório Curae Odontologia"
                 className="w-full h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#7CC6E6]/10 to-transparent" />
