@@ -60,12 +60,14 @@ export function Footer() {
           <div>
             <h4 className="font-medium mb-4 text-[#7CC6E6]">Redes sociais</h4>
             <a
-              href="#"
+              href="https://www.instagram.com/curae.odontologia?igsh=MTQ5bWw3bng1YzJidg=="
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
             >
               <Instagram className="w-5 h-5 text-[#7CC6E6]" />
               <span className="group-hover:translate-x-1 transition-transform">
-                Instagram
+                @curae.odontologia
               </span>
             </a>
           </div>

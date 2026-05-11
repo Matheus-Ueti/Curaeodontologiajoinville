@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram } from "lucide-react";
 import { useState } from "react";
 
 export function Header() {
@@ -50,6 +50,14 @@ export function Header() {
             >
               Contato
             </a>
+            <a
+              href="https://www.instagram.com/curae.odontologia?igsh=MTQ5bWw3bng1YzJidg=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#2D3748] hover:text-[#7CC6E6] transition-colors"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -92,6 +100,15 @@ export function Header() {
               className="block text-[#2D3748] hover:text-[#7CC6E6] transition-colors"
             >
               Contato
+            </a>
+            <a
+              href="https://www.instagram.com/curae.odontologia?igsh=MTQ5bWw3bng1YzJidg=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[#2D3748] hover:text-[#7CC6E6] transition-colors"
+            >
+              <Instagram className="w-5 h-5" />
+              Instagram
             </a>
           </motion.div>
         )}
