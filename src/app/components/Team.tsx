@@ -11,12 +11,9 @@ const team = [
       "Minha abordagem combina técnica avançada, tecnologia de ponta e cuidado humanizado. Participo constantemente de congressos nacionais e internacionais para estar sempre atualizado com as mais recentes inovações da área.",
     ],
     expertise: [
-      "Implantes dentários avançados",
-      "Próteses sobre implante",
-      "Reabilitação oral completa",
-      "Planejamento digital 3D",
-      "Prótese fixa e removível",
-      "Cirurgias guiadas por computador",
+      "Implantodontia",
+      "Reabilitação Oral",
+      "Cirurgias",
     ],
     image: "/src/imports/Gemini_Generated_Image_s1hkl3s1hkl3s1hk.png",
   },
@@ -25,19 +22,15 @@ const team = [
     cro: "CRO SC 12894",
     title: "QUEM SOU",
     description: [
-      "Sou cirurgiã-dentista graduada pela UFSC, especialista em Endodontia e com formação avançada em Harmonização Orofacial e Dentística Estética. Minha paixão é unir saúde e beleza, criando sorrisos harmoniosos e naturais.",
-      "Acredito que cada paciente é único e merece um atendimento personalizado que respeite sua individualidade. Meu compromisso é oferecer excelência técnica com delicadeza e cuidado, sempre atualizada com as tendências em estética facial.",
+      "Sou cirurgiã-dentista graduada pela UNIVILLE, especialista em Endodontia, Harmonização Facial e Estética Dental. Minha paixão é unir saúde e beleza, criando sorrisos harmoniosos e naturais através de procedimentos personalizados.",
+      "Acredito que cada paciente é único e merece um atendimento que respeite sua individualidade. Meu compromisso é oferecer excelência técnica com delicadeza e cuidado, sempre atualizada com as mais recentes tendências em estética facial e odontologia.",
     ],
     expertise: [
-      "Endodontia (tratamento de canal)",
-      "Harmonização orofacial",
-      "Preenchimento com ácido hialurônico",
-      "Toxina botulínica",
-      "Dentística estética",
-      "Clareamento dental",
+      "Endodontia",
+      "Harmonização facial",
+      "Estética dental",
     ],
-    image:
-      "https://images.unsplash.com/photo-1603654983938-a3ac86145bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBhdGllbnQlMjBiZWF1dGlmdWwlMjBzbWlsZSUyMGRlbnRhbHxlbnwxfHx8fDE3Nzg1MjQ5NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/src/imports/Gemini_Generated_Image_wbc7d4wbc7d4wbc7.png",
   },
 ];
 
