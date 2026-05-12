@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import consultorioImg from "../assets/consultorio.jpg";
 
 export function Hero() {
   return (
@@ -48,21 +49,16 @@ export function Hero() {
           </motion.div>
 
           {/* Right image */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="relative"
-          >
+          <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/src/imports/17276ae3-8cbb-4be4-9f7c-a9248c65cafa.jpg"
+                src={consultorioImg}
                 alt="Consultório Curae Odontologia"
                 className="w-full h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#7CC6E6]/10 to-transparent" />
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

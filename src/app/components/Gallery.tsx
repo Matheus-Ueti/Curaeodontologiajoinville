@@ -1,12 +1,14 @@
 import { motion } from "motion/react";
+import consultorioImg from "../assets/consultorio.jpg";
+import recepcaoImg from "../assets/recepcao.png";
 
 const images = [
   {
-    src: "/src/imports/17276ae3-8cbb-4be4-9f7c-a9248c65cafa.jpg",
+    src: consultorioImg,
     alt: "Consultório odontológico",
   },
   {
-    src: "/src/imports/image-5.png",
+    src: recepcaoImg,
     alt: "Recepção da clínica",
   },
 ];
@@ -36,23 +38,15 @@ export function Gallery() {
 
         <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {images.map((image, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="group"
-            >
-              <div className="relative rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+            <div key={index} className="group">
+              <div className="relative rounded-3xl overflow-hidden shadow-xl">
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[400px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#2D3748]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

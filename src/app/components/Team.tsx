@@ -1,5 +1,7 @@
 import { motion } from "motion/react";
 import { Check } from "lucide-react";
+import drSergioImg from "../assets/dr-sergio.png";
+import draManuelaImg from "../assets/dra-manuela.png";
 
 const team = [
   {
@@ -15,7 +17,7 @@ const team = [
       "Reabilitação Oral",
       "Cirurgias",
     ],
-    image: "/src/imports/Gemini_Generated_Image_s1hkl3s1hkl3s1hk.png",
+    image: drSergioImg,
   },
   {
     name: "Dra. Manuela Nunes Barbosa",
@@ -30,7 +32,7 @@ const team = [
       "Harmonização facial",
       "Estética dental",
     ],
-    image: "/src/imports/Gemini_Generated_Image_wbc7d4wbc7d4wbc7.png",
+    image: draManuelaImg,
   },
 ];
 
@@ -58,15 +60,8 @@ export function Team() {
 
         <div className="space-y-20 max-w-6xl mx-auto">
           {team.map((member, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="group"
-            >
-              <div className="bg-white rounded-3xl overflow-hidden border border-[#7CC6E6]/10 shadow-xl hover:shadow-2xl transition-all duration-500">
+            <div key={index} className="group">
+              <div className="bg-white rounded-3xl overflow-hidden border border-[#7CC6E6]/10 shadow-xl">
                 <div className="grid md:grid-cols-2 gap-0">
                   {/* Image */}
                   <div className="relative overflow-hidden h-[500px] md:h-auto">
@@ -125,7 +120,7 @@ export function Team() {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
