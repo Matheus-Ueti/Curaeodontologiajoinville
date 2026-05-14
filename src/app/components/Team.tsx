@@ -1,7 +1,5 @@
 import { motion } from "motion/react";
 import { Check } from "lucide-react";
-import drSergioImg from "../assets/dr-sergio.png";
-import draManuelaImg from "../assets/dra-manuela.png";
 
 const team = [
   {
@@ -17,7 +15,7 @@ const team = [
       "Reabilitação Oral",
       "Cirurgias",
     ],
-    image: drSergioImg,
+    image: "/images/dr-sergio.png",
   },
   {
     name: "Dra. Manuela Nunes Barbosa",
@@ -32,7 +30,7 @@ const team = [
       "Harmonização facial",
       "Estética dental",
     ],
-    image: draManuelaImg,
+    image: "/images/dra-manuela.png",
   },
 ];
 

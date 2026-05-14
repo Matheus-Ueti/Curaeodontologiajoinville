@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import consultorioImg from "../assets/consultorio.jpg";
 
 export function Hero() {
   return (
@@ -52,7 +51,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src={consultorioImg}
+                src="/images/consultorio.jpg"
                 alt="Consultório Curae Odontologia"
                 className="w-full h-[600px] object-cover"
               />

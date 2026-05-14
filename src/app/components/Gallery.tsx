@@ -1,14 +1,12 @@
 import { motion } from "motion/react";
-import consultorioImg from "../assets/consultorio.jpg";
-import recepcaoImg from "../assets/recepcao.png";
 
 const images = [
   {
-    src: consultorioImg,
+    src: "/images/consultorio.jpg",
     alt: "Consultório odontológico",
   },
   {
-    src: recepcaoImg,
+    src: "/images/recepcao.png",
     alt: "Recepção da clínica",
   },
 ];
